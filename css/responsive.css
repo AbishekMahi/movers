@@ -21,7 +21,7 @@ Responsive template styles
 
 .dl-menuwrapper {
     width: 100%;
-    max-width: 300px;
+    /* max-width: 300px; */
     float: left;
     position: relative;
     -webkit-perspective: 1000;
@@ -99,8 +99,8 @@ Responsive template styles
     text-transform: uppercase;
 }
 
-.no-touch .dl-menuwrapper li a:hover{
-    background: rgba(255,248,213,0.1);
+.dl-menuwrapper li a:hover{
+    background: rgba(255, 248, 213, 0.363);
 }
 
 .dl-menuwrapper li.dl-back > a {
@@ -492,7 +492,7 @@ All this is done for any sub-level being entered.
     }
 
     .logo img{
-        margin: 0 auto 15px;
+        margin: 10px auto 15px;
     }
 
     #dl-menu{
@@ -500,7 +500,7 @@ All this is done for any sub-level being entered.
     }
 
     .dl-menuwrapper{
-        max-width: 230px;
+        /* max-width: 230px; */
         float: left;
     }
 
@@ -1008,7 +1008,7 @@ All this is done for any sub-level being entered.
     }
 
     .logo img{
-        margin: 0 auto 15px;
+        margin: 10px auto 15px;
     }
 
     #dl-menu{
@@ -1016,7 +1016,7 @@ All this is done for any sub-level being entered.
     }
 
     .dl-menuwrapper{
-        max-width: 230px;
+        /* max-width: 230px; */
         float: left;
     }
 
@@ -1523,7 +1523,7 @@ All this is done for any sub-level being entered.
     }
 
     .logo img{
-        margin: 0 auto 15px;
+        margin: 10px auto 15px;
     }
 
     #dl-menu{
@@ -1532,7 +1532,7 @@ All this is done for any sub-level being entered.
     }
 
     .dl-menuwrapper{
-        max-width: 380px;
+        /* max-width: 380px; */
         float: left;
     }
 

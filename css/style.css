@@ -69,7 +69,7 @@
     border: none;
     outline: none;
     background-color: #25D366;
-    color: white;
+    color: white !important;
     cursor: pointer;
     padding: 14px 15px;
     border-radius: 50px;
@@ -78,7 +78,7 @@
 }
 
 .whatsapp:hover {
-    color: white;
+    color: white !important;
     bottom: 65px;
 }
 
@@ -168,6 +168,11 @@ video {
     border: 0;
     font: inherit;
     vertical-align: baseline;
+}
+
+.logo img {
+    margin: 10px auto 5px;
+    height: 70px !important;
 }
 
 article,
@@ -696,7 +701,8 @@ a.download-link span i {
 }
 
 .navbar-header {
-    padding-top: 18px;
+    padding-top: 0px;
+    /* padding-top: 18px; */
     padding-left: 30px;
 }
 
@@ -1102,13 +1108,13 @@ a.download-link span i {
 }
 
 .pt-bkg02 {
-    background-image: url('../img/pics/page-title02.jpg');
+    background-image: url('https://i.postimg.cc/cLh9bQ0W/trans-banner.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .pt-bkg03 {
-    background-image: url('../img/pics/page-title03.jpg');
+    background-image: url('https://i.postimg.cc/cLh9bQ0W/trans-banner.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -1138,7 +1144,7 @@ a.download-link span i {
 }
 
 .pt-bkg08 {
-    background-image: url('../img/pics/page-title08.jpg');
+    background-image: url('https://i.postimg.cc/cLh9bQ0W/trans-banner.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
